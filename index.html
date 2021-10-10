@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <title>Ejercicios JavaScript</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center mt-3">Ejercicios JavaScript</h1>
+        <br>
+        <h2>Ejercicio 1 - Cantidad de mayúsculas</h2>
+        <p>Consigna: Realizar un script llamado Ejercicio1.js, que contenga una función llamada
+            CantidadMayusculas que reciba como parámetro un string y devuelva el número de letras
+            mayúsculas que contiene dicha cadena. El valor devuelto debe ser mostrado en pantalla.</p>
+        <label for="cadena">Frase:</label>
+        <input class="col-6" type="text" placeholder="Ingrese la frase de la que quiera saber la cantidad de mayúsculas"
+            id="cadena">
+        <div class="row">
+            <div class="col-12 col-sm-9 col-md-4 mt-3">
+                <button class="btn btn-success" type="submit" id="btn-ejercicio1">Llamar función</button>
+            </div>
+        </div>
+
+        <div>
+            <p id="resultado-ejercicio1"></p>
+        </div>
+
+
+        <h2>Ejercicio 2 - Array incrementado</h2>
+        <p>Consigna: Realizar un script llamado Ejercicio2.js, que dado el array [1,2,3,4,5,7] realice una copia
+            del array sumándole 1 a cada uno de los valores.</p>
+        <p>Array inicial: [1,2,3,4,5,7]</p>
+        <button type="button" class="btn btn-success" id="btn-ejercicio2">Llamar función</button>
+        <div>
+            <p id="resultado-ejercicio2"></p>
+        </div>
+
+        <h2>Ejercicio 3 - Array aleatorio</h2>
+        <p>Consigna: Realizar un script llamado Ejercicio3.js, que cree un array vacío, y luego generar N
+            números al azar y guardarlos en un array, N es introducido por el usuario a través de un
+            prompt.</p>
+        <button type="button" class="btn btn-success" id="btn-ejercicio3">Llamar función</button>
+        <div>
+            <p id="resultado-ejercicio3"></p>
+        </div>
+
+        <h2>Ejercicio 4 - Ordenar array</h2>
+        <p>Consigna: Realizar un script llamado Ejercicio4.js, que dado un array, ordene sus valores de menor
+            a mayor y los muestre por pantalla.</p>
+        <button type="button" class="btn btn-success" id="btn-ejercicio4">Llamar función</button>
+        <div>
+            <p id="sin-ordenar-ejercicio4"></p>
+        </div>
+        <div>
+            <p id="resultado-ejercicio4"></p>
+        </div>
+
+        <h2>Ejercicio 5 - Unir y ordenar arrays</h2>
+        <p>Consigna: Dado los siguientes vectores:
+            int var1={1,2,4,6,7,8}
+            int var2={1,2,4,5,6,7,8}
+            a - Mostrar de manera ordenada la unión de los elementos de ambos vectores.</p>
+        <p>Arrays iniciales: int var1={1,2,4,6,7,8}; int var2={1,2,4,5,6,7,8}.</p>
+        <button type="button" class="btn btn-success" id="btn-ejercicio5">Llamar función</button>
+        <div>
+            <p id="resultado-ejercicio5"></p>
+        </div>
+
+    </div>
+
+    <script src="js/Ejercicio1.js"></script>
+    <script src="js/Ejercicio2.js"></script>
+    <script src="js/Ejercicio3.js"></script>
+    <script src="js/Ejercicio4.js"></script>
+    <script src="js/Ejercicio5.js"></script>
+</body>
+
+</html>
